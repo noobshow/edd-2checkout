@@ -1,0 +1,5 @@
+{
+    "require": {
+        "collizo4sky/omnipay-2checkout": "^1.4"
+    }
+}
