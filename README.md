@@ -20,5 +20,5 @@ php plugin-build.php path/to/build/folder
 ## Want More? Go Pro
 * On-site checkout style.
 * Fraud review support i.e only complete an order after it passes 2Checkout fraud review.
-* Support from team of WordPress expert
+* Support from team of WordPress / WooCommerce experts.
 * **[Go Pro](https://omnipay.io/downloads/2checkout-easy-digital-downloads/)** https://omnipay.io/downloads/2checkout-easy-digital-downloads/
