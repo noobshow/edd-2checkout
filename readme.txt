@@ -12,7 +12,7 @@ Accept credit card payment in your WooCommerce powered store via WePay.
 == Description ==
 A payment gateway that allows your WooCommerce powered store / e-commerce website to accept credit card and bank payment via WePay.
 
-[Click to see a demo](https://omnipay.io/wepay-woocommerce-demo/)
+[Click to see a demo](https://omnipay.io/edd-demo/)
 
 ### Features
 * Supports All WooCommerce Product Types.
@@ -25,10 +25,11 @@ A payment gateway that allows your WooCommerce powered store / e-commerce websit
 
 
 ### Want More? Go Pro
-* Direct / On-site checkout style.
-* iFrame checkout style
-* Support from a team of WordPress / WooCommerce experts.
+* On-site checkout style.
+* Fraud review support i.e only complete an order after it passes 2Checkout fraud review.
+* Support from team of WordPress / WooCommerce experts.
 * **[Go Pro](https://omnipay.io/downloads/better-wepay-payment-gateway-for-woocommerce/)**
+
 
 ### Plugin you will like
 * **[OmniPay](https://omnipay.io)**: OmniPay is a payment gateway extension for WooCommerce and Easy Digital Downloads that bundles several payment providers such as Stripe, 2checkout, PayPal, Braintree, WePay, Authorize.Net together thus saving you money.
@@ -49,7 +50,7 @@ Navigate to your WordPress "Plugins" page, inside of your WordPress dashboard, a
 
 == Frequently Asked Questions ==
 
-Have any question, shoot us a mail via support
+Have any question, shoot us a mail via support[at]omnipay.io
 
 == Screenshots ==
 
