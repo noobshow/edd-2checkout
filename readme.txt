@@ -31,6 +31,8 @@ A payment gateway that allows your Easy Digital Downloads powered store / e-comm
 * Support from team of WordPress / Easy Digital Downloads experts.
 * **[Go Pro](https://omnipay.io/downloads/2checkout-easy-digital-downloads/)**
 
+### Contribution
+Plugin is open source on [GitHub](https://github.com/OmnipayWP/edd-2checkout). Issues and pull requests are welcome.
 
 ### Plugins You Will Like
 * **[OmniPay](https://omnipay.io)**: OmniPay is a payment gateway extension for WooCommerce and Easy Digital Downloads that bundles several payment providers such as Stripe, 2checkout, PayPal, Braintree, WePay, Authorize.Net together thus saving you money.
