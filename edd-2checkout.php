@@ -4,7 +4,7 @@
 Plugin Name: 2Checkout for Easy Digital Downloads
 Plugin URI: http://omnipay.io
 Description: Accept Credit Card payments in your Easy Digital Downloads store via 2Checkout
-Version: 1.0
+Version: 1.0.1
 Author: Agbonghama Collins (W3Guy LLC)
 Author URI: http://omnipay.io
 Text Domain: edd-2checkout

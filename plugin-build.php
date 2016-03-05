@@ -8,11 +8,7 @@ if ( file_exists( $dir ) ) {
 echo "changed directory to $dir" . "\n";
 exec( "git clone https://github.com/OmnipayWP/edd-2checkout.git $dir" );
 echo "git clone completed." . "\n";
-// current directory
-echo getcwd() . "\n";
 chdir( $dir );
-// current directory
-echo getcwd() . "\n";
 
 
 function deleteDir( $path ) {
