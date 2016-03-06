@@ -10,7 +10,7 @@ License: GPL-2.0+
 Accept credit card and PayPal payment in your Easy Digital Downloads powered store via 2Checkout.
 
 == Description ==
-A payment gateway that allows your Easy Digital Downloads powered store / e-commerce website to accept credit card and PayPal payment via 2Checkout.
+**2Checkout for Easy Digital Downloads** is a payment gateway that allows your Easy Digital Downloads powered store / e-commerce website to accept credit card and PayPal payment via 2Checkout.
 
 [Click to see a demo](https://omnipay.io/edd-demo/)
 
