@@ -31,6 +31,51 @@ class TwoCheckout {
 		add_action( 'init', array( $this, 'complete_offsite_payment' ), 20 );
 		add_filter( 'edd_settings_sections_gateways', array( $this, 'settings_section' ) );
 		add_filter( 'edd_settings_gateways', array( $this, 'settings_page' ) );
+
+		$basename = plugin_basename( __FILE__ );
+		$prefix   = is_network_admin() ? 'network_admin_' : '';
+		add_filter( "{$prefix}plugin_action_links_$basename", array( $this, 'action_links' ), 10, 4 );
+
+		add_filter( 'plugin_row_meta', array( $this, 'plugin_row_meta' ), 10, 2 );
+	}
+
+	/**
+	 * Show row meta on the plugin screen.
+	 *
+	 * @param    mixed $links Plugin Row Meta
+	 * @param    mixed $file Plugin Base file
+	 *
+	 * @return    array
+	 */
+	public static function plugin_row_meta( $links, $file ) {
+		if ( $file == plugin_basename( __FILE__ ) ) {
+			$row_meta = array(
+				'upgradetopro' => '<a href="ttps://omnipay.io/downloads/2checkout-easy-digital-downloads/?utm_source=wp-dashboard&utm_medium=edd-2checkout-lite" target="__blank" title="' . esc_attr( __( 'Upgrade to PRO', 'edd-braintree' ) ) . '"><span style="color:#f18500">' . __( 'Upgrade to PRO', 'edd-braintree' ) . '</span></a>',
+			);
+
+			return array_merge( $links, $row_meta );
+		}
+
+		return (array) $links;
+	}
+
+	/**
+	 * Action links
+	 *
+	 * @param $actions
+	 * @param $plugin_file
+	 * @param $plugin_data
+	 * @param $context
+	 *
+	 * @return array
+	 */
+	public function action_links( $actions, $plugin_file, $plugin_data, $context ) {
+		$custom_actions = array(
+			'upgradetopro' => '<a href="ttps://omnipay.io/downloads/2checkout-easy-digital-downloads/?utm_source=wp-dashboard&utm_medium=edd-2checkout-lite" target="__blank" title="' . esc_attr( __( 'Upgrade to PRO', 'edd-braintree' ) ) . '"><span style="color:#f18500">' . __( 'Upgrade to PRO', 'edd-braintree' ) . '</span></a>',
+		);
+
+		// add the links to the front of the actions list
+		return array_merge( $custom_actions, $actions );
 	}
 
 
