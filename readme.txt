@@ -2,9 +2,9 @@
 Contributors: Collizo4sky
 Donate link: https://omnipay.io/downloads/2checkout-easy-digital-downloads/
 Tags: 2checkout, 2co, easy digital downloads, edd, payment, payment gateway, gateway, 2checkout payment gateway, 2checkout gateway, credit card, paypal, pay, online payment, shop, e-commerce, ecommerce
-Requires at least: 3.9
-Tested up to: 4.4.2
-Stable tag: 1.0.1
+Requires at least: 4.0
+Tested up to: 4.5
+Stable tag: 1.0.2
 License: GPL-2.0+
 
 Accept credit card and PayPal payment in your Easy Digital Downloads powered store via 2Checkout.
@@ -61,6 +61,9 @@ Have any question, shoot us a mail via support[at]omnipay.io
 2. Payment form securely hosted on 2checkout server.
 
 == Changelog ==
+
+= 1.0.2 =
+* Yet another bug fix
 
 = 1.0.1 =
 * Minor bug fix
