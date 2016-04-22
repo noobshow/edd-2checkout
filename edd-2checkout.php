@@ -50,10 +50,10 @@ class TwoCheckout {
 					<div id="message" class="error notice"><p>'
 					          . sprintf(
 						          __(
-							          'On-site checkout style, fraud review support, access to support from WordPress & WooCommerce experts. <strong><a target="_blank" href="%s">Upgrade to PRO Now</a></strong>.',
+							          'On-site checkout style, fraud review support, access to support from WordPress & EDD experts. <strong><a target="_blank" href="%s">Upgrade to PRO Now</a></strong>.',
 							          'edd-2checkout'
 						          ),
-						          'https://omnipay.io/downloads/2checkout-easy-digital-downloads/'
+						          'https://omnipay.io/downloads/2checkout-easy-digital-downloads/?utm_source=wp-dashboard&utm_medium=edd-2checkout-lite'
 					          ) .
 					          '</p></div>',
 					'desc' => __( 'Configure 2Checkout payment gateway settings', 'edd-2checkout' ),
