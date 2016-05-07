@@ -283,13 +283,13 @@ class TwoCheckout {
 		);
 
 		$response = $gateway->purchase(
-			array(
+			apply_filters( 'edd_2checkout_purchase_args', array(
 				'card'          => $formData,
 				'transactionId' => $payment_id,
 				'currency'      => edd_get_currency(),
 				// add a query parameter to the returnUrl to listen and complete payment
-				'returnUrl'     => add_query_arg( 'edd-om-api', '2co', edd_get_success_page_uri() ),
-			)
+				'returnUrl'     => apply_filters( 'edd_2checkout_return_url', add_query_arg( 'edd-om-api', '2co', edd_get_success_page_uri() ) ),
+			) )
 		)->send();
 
 		return $response;
